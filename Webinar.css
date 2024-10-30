@@ -2,6 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    overflow-x: hidden;
+}
 .Header{
     display: flex;
     align-items: center;
@@ -55,12 +58,137 @@
 .our-client{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 60px;
 }
 .our-client__text {
     display: block;
+    width: 300px;
 }
-.our-client__img{
+.our-client__text strong{
+    font-size: 24px;
+}
+.our-client__text p{
+    margin-top: 20px;
+} 
+.our-client img{
+    position: relative;
+    margin-top: 75px;
+}
+.img1{
+    bottom: -10px;
+}
+.box-sp{
+    position: relative;
+    margin-top: 290px;
     align-items: center;
+}
+.box-content{
+    width: 35%;
+    margin: 30px 20px;
+    position:absolute;
+}
+.box-content img {
+    rotate:180deg;
+    position: relative;
+}
+.box-content strong{
+    font-size: 40px;
+    position: absolute;
+    left:45px;
+    top :70px
+}
+.box-content p {
+    margin-left: 40px;
+}
+.box-service{
+    position: relative;
+}
+.box p{
+    padding-bottom: 10px;
+}
+.box-service-img{
+    position: relative;
+    right:-260px;
+    top :-120px;
+    z-index: -1;
+}
+.box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 5px gray;
+}
+.box__1{
+    width: 250px;
+    box-shadow: grey;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 15px;
+    border-radius: 20px;
+    position: absolute;
+    top :-790px;
+}
+.box__1 strong {
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.box__1 .box-logo {
+    position: absolute;
+    top:55px;
+}
+.box__2{
+    width: 250px;
+    box-shadow: grey;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 15px;
+    border-radius: 20px;
+    position: absolute;
+    top :-870px;
+    right :170px
+}
+.box__2 strong {
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.box__2 .box-logo {
+    position: absolute;
+    top:55px;
+}
+.box__3{
+    width: 250px;
+    box-shadow: grey;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 15px;
+    border-radius: 20px;
+    position: absolute;
+    top :-380px;
+}
+.box__3 strong {
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.box__3 .box-logo {
+    position: absolute;
+    top:55px;
+}
+.box__4{
+    width: 250px;
+    box-shadow: grey;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 15px;
+    border-radius: 20px;
+    position: absolute;
+    top :-456px;
+    right :170px
+}
+.box__4 strong {
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.box__4 .box-logo {
+    position: absolute;
+    top:55px;
 }
